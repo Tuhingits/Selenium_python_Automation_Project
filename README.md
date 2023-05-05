@@ -22,7 +22,7 @@ You will also need Git to copy this project code. If you are new to Git, try lea
 For Web UI testing, you will need to install the latest versions of Google Chrome and Mozilla Firefox. You can use other browsers with Selenium WebDriver, but here I use Chrome.
 You will also need to install the latest versions of the WebDriver executables for these browsers: ChromeDriver for Chrome and geckodriver for Firefox. Each test case  launch the WebDriver executable for its target browser.
 ChromeDriver and geckodriver must be installed on the system path.
-## insted of chrome path Using Option
+## instead of chrome path Using Option
 Using options with webdriver.Chrome() method allows you to customize the Chrome browser that will be launched by Selenium WebDriver. You can set various options and preferences for Chrome, such as the window size, the user-agent string, the language, and many others.
 ![image](https://user-images.githubusercontent.com/44814788/236533488-bc3bbf1a-58f3-44ee-a3d9-a033c424c22a.png)
 One of the experimental options that can be added is "detach". When "detach" is set to True, it means that the Chrome browser will continue running even after the Python script has finished executing. This is useful when you want to keep the browser open for further interaction or inspection after the script has completed. If "detach" is not set to True, the browser window will close as soon as the script has finished running.
